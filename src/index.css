@@ -3,8 +3,14 @@
 body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000045;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674757247_bogatyr-club-p-krasivii-fon-fon-vkontakte-57.jpg);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 code {

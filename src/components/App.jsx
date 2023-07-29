@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./Layout/Layout";
-import { HomePage } from "./HomePage/HomePage";
-import { Movies } from "./Movies/Movies";
+import { HomePage } from "../pages/HomePage/HomePage";
+import { Movies } from "../pages/Movies/Movies";
 
 export const App = () => {
   return (
