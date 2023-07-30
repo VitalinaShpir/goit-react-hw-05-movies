@@ -1,6 +1,6 @@
 import { getTrending } from 'services/movieAPI';
 import { useEffect, useState, useRef } from 'react';
-import { Loader } from 'components/Loader/Loader';
+import Loader from 'components/Loader/Loader';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import css from './HomePage.module.css'
 

@@ -1,5 +1,5 @@
 import { ToastContainer, toast } from 'react-toastify';
-import { Loader } from 'components/Loader/Loader';
+import Loader from 'components/Loader/Loader';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import Searchbar from 'components/Searchbar/Searchbar';
 import { useEffect, useRef, useState } from 'react';

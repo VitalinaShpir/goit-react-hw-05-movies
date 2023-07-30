@@ -1,7 +1,7 @@
 import { LoaderWrap } from './Loader.styled';
 import { Vortex } from 'react-loader-spinner';
 
-export const Loader = () => {
+ const Loader = () => {
   return (
     <LoaderWrap>
       <Vortex
@@ -16,3 +16,5 @@ export const Loader = () => {
     </LoaderWrap>
   );
 };
+
+export default Loader
