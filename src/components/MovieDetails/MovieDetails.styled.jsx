@@ -21,8 +21,8 @@ export const StyledLink = styled(Link)`
 
   &:hover {
     transform: scale(1.05);
-    color: orangered;
-    background-color: #2a2f4f;
+    color: whitesmoke;
+    background-color: fuchsia;
   }
 `;
 

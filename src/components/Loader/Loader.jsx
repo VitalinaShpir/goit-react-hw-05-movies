@@ -11,7 +11,7 @@ import { Vortex } from 'react-loader-spinner';
         ariaLabel="vortex-loading"
         wrapperStyle={{}}
         wrapperClass="vortex-wrapper"
-        colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
+        colors={['purple', 'pink', 'fuchsia', 'violet', 'darkmagenta', 'hotpink']}
       />
     </LoaderWrap>
   );

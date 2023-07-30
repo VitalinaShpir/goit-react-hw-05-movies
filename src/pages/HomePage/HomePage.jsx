@@ -39,6 +39,7 @@ export const HomePage = () => {
   return (
     <>
       <h1 className={css.title}>Trending movies today</h1>
+      
       {isLoading && <Loader />}
       {error && <p>{error}</p>}
       {!isLoading && movies.length > 0 && <MoviesList movieItems={movies} />}
