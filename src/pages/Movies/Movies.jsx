@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { getMoviesByQuery } from 'services/movieAPI';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const Movies = () => {
+ const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [query, setQuery] = useState('');
@@ -71,3 +71,4 @@ export const Movies = () => {
   );
 };
 
+export default Movies

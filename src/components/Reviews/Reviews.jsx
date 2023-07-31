@@ -11,7 +11,7 @@ import {
   ReviewsList,
 } from './Reviews.styled';
 
-export const Reviews = () => {
+ const Reviews = () => {
   const { movieId } = useParams();
   const [reviews, setReviews] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -78,4 +78,4 @@ export const Reviews = () => {
   );
 };
 
-// export default Reviews;
+export default Reviews;
